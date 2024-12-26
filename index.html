@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,8 +7,7 @@
         <meta name="viewport" content="width=420" />
         
         <!-- Keywords -->
-    <meta name="keywords" content="Arnav Palawat">
-
+        <meta name="keywords" content="Arnav Palawat">
 
         <!-- Favicons -->
         <link rel="icon" href="favicon.png">
@@ -21,16 +19,39 @@
         <meta name="title" content="Arnav Palawat">
         <meta name="description" content=":)">
         <style>
-    .grey-line {
-      width: 150px;
-      height: 1px;
-      background-color: white;
-      margin: 20px auto;
-    }
-  </style>
+            .grey-line {
+              width: 150px;
+              height: 1px;
+              background-color: white;
+              margin: 20px auto;
+            }
+            body {
+              margin: 0;
+              height: 100vh;
+              overflow: hidden;
+              background: white;
+            }
+
+            .hover-effect {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              pointer-events: none;
+              background: radial-gradient(circle 100px at var(--x, 50%) var(--y, 50%), lightgray, transparent);
+            }
+        </style>
     </head>
 
     <body>
+        <div class="hover-effect"></div>
+        <script>
+            const hoverEffect = document.querySelector('.hover-effect');
+
+            document.addEventListener('mousemove', (e) => {
+              hoverEffect.style.setProperty('--x', `${e.clientX}px`);
+              hoverEffect.style.setProperty('--y', `${e.clientY}px`);
+            });
+        </script>
         <div>
           <h1>Arnav Palawat</h1>
               <i></i>
