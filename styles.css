@@ -39,11 +39,12 @@ h1, h2, h3 {
     font-family: 'TiemposHeadline', serif;
     line-height: 2rem;
     font-weight: 600;
+    color: #080e32;
 }
 
 .timeline {
     color: rgb(0, 0, 0);
-    background-color: rgba(244, 244, 89, 0.957);
+    background-color: rgba(227, 252, 67, 0.957);
     font-weight: 400;
 }
 
