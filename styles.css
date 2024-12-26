@@ -82,3 +82,11 @@ p {
     font-family: 'Times New Roman', serif;
     font-style: normal;
 }
+
+/* Line Style */
+.grey-line {
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    margin: 20px auto;
+}
