@@ -29,14 +29,14 @@ html {
 }
 
 body, p {
-    font-family: 'Graphik', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     max-width: 400px;
     background-image: url();
     color: black;
 }
 
 h1, h2, h3 {
-   
+    font-family: 'Times New Roman', sans-serif;
     line-height: 2rem;
     font-weight: 600;
 }
