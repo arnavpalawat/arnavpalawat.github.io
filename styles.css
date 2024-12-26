@@ -29,14 +29,14 @@ html {
 }
 
 body, p {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman', serif;
     max-width: 400px;
     background-image: url();
     color: black;
 }
 
 h1, h2, h3 {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman', serif;
     line-height: 2rem;
     font-weight: 600;
 }
@@ -78,6 +78,6 @@ a:visited {
 }
 
 p {
-    font-family: 'Graphik';
-    font-style: italic;
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
 }
