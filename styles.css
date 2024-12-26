@@ -28,7 +28,7 @@ html {
     justify-content: center;
 }
 
-body, p {
+p {
     font-family: 'Times New Roman', serif;
     max-width: 400px;
     background-image: url();
