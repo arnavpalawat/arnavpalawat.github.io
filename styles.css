@@ -95,6 +95,10 @@ p {
   cursor: none !important;
 }
 
+body {
+    cursor: none;
+}
+
 .cursor-dot, .cursor-dot-outline {
   position: absolute;
   border-radius: 50%;
