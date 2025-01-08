@@ -91,8 +91,8 @@ p {
     margin: 20px auto;
 }
 
-body {
-  cursor: none; /* Hide default cursor */
+* {
+  cursor: none !important;
 }
 
 .cursor-dot, .cursor-dot-outline {
@@ -107,12 +107,12 @@ body {
 .cursor-dot {
   width: 8px;
   height: 8px;
-  background-color: #000; /* Black dot */
+  background-color: #363737; /* Black dot */
 }
 
 .cursor-dot-outline {
   width: 20px;
   height: 20px;
-  border: 2px solid #000; /* Black outline */
+  border: 2px solid #363737; /* Black outline */
   transition: transform 0.15s ease-out; /* Smooth animation */
 }
